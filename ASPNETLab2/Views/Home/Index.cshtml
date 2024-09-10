@@ -1,0 +1,16 @@
+﻿@* @model Company *@
+@model AboutMe
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    @* <p>Найбільша кількість працівників в компанії : @Model.Name, а саме @Model.CountOfEmployees</p> *@
+    <p>Info about me:</p>
+    <p>@Model.Name</p>
+    <p>@Model.Age</p>
+    <p>@Model.Occupation</p>
+    <p>@Model.Hobbie</p>
+</div>
